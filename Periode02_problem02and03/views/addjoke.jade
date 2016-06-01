@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h2 #{title}
+  form(name="newjoke", action="/addjoke", method="post")
+      input(type="text", name="newjoke", )
+      input(type="submit", value="AddJoke")
+  
+  a(href="http://localhost:3000/") Back to main

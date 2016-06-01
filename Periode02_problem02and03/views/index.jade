@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h2 Welcome  to #{username}
+  a(href="http://localhost:3000/joke") GetRandomJoke
+  br
+  a(href="http://localhost:3000/alljokes") GetAllJokes
+  br
+  a(href="http://localhost:3000/addjoke") AddJoke
+  br
+  p Your username: #{username}

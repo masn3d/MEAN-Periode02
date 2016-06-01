@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bin/www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="/usr/bin/node" path-to-js-file="$PROJECT_DIR$/../Periode02_problem02and03/bin/www" working-dir="$PROJECT_DIR$/../Periode02_problem02and03">
+    <envs>
+      <env name="DEBUG" value="Periode02_problem02:*" />
+    </envs>
+    <browser url="http://localhost:3000/" />
+    <method />
+  </configuration>
+</component>

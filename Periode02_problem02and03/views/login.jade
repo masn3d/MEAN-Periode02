@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h2 #{title}
+  p Type username:
+  form(name="userName", action="/login", method="post")
+      input(type="text", name="userName", )
+      input(type="submit", value="Log In")
+  

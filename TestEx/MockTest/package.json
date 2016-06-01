@@ -1,0 +1,16 @@
+{
+  "name": "mocktest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mock_part1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "nock": "^8.0.0",
+    "request": "^2.72.0"
+  }
+}
